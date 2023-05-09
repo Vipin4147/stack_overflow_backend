@@ -24,7 +24,7 @@ else{
 
                  const user = new UserModel({name,email,pass:hash})
                  await user.save()
-                 res.send({msg:"user has been registered"})
+                 res.send("user has been registered")
 
           })
 
