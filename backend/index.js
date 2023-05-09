@@ -14,9 +14,6 @@ app.get("/", () => {
 app.use("/", userRouter);
 app.use("/", quesRouter);
 
-
-
-
 app.listen(8080, async () => {
   try {
     await connection;
